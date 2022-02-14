@@ -1,0 +1,549 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: auto;
+    background-color: #000;
+    text-decoration: none;
+    min-width: 320px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    cursor: pointer;
+}
+h3{
+    font-size: 18px;
+}
+.section1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+      url("bgnetflix.jpg") ; 
+      height: 102vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 8px solid #222;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+.nf-logo{
+    color: #e50914;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.btnn{
+background-color: #e50914;
+color: white;
+padding: 5px 17px;
+border-radius: 5px;
+cursor: pointer;
+display: inline-block;
+/* width:auto; */
+margin-right: 50px;
+margin-left: 50px;
+height: 30px;
+font-weight: 400;
+}
+.logo{
+    margin-right: auto;
+}
+
+.fa-globe::before {
+    content: "";
+}
+.fa-caret-down::before {
+    content: "";
+}
+.language{
+    height: 40px;
+    background-color: #27262B;
+    border:  #27262B;
+justify-content: right;}
+.more{
+    margin-left: 50px;
+}
+button.language .dropdown {
+    position: absolute;
+    width: 100%;
+    list-style: none;
+    background-color: #27262B;
+   
+    top: 100%;
+    border-radius: 3px;
+    /* opacity: 0; 
+    /* visibility: hidden; */
+}
+button.language ul.dropdown a {
+    color: var(--light-gray-color);
+    transition: .3s;
+}
+
+
+.main-container{
+    width: 100%;
+    height: 90vh;
+    /* text-align: center; */
+    display: flex;
+align-items: center;
+    justify-content: center;
+   flex-direction:column;
+}
+.title{
+    /* width: 100%; */
+    text-align: center;
+    
+}
+.hyper-title{
+    color: white;
+    font-size: 60px;
+    font-weight: 90px;
+}
+.second-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 50px;
+}
+.small-title{
+    color: white;
+    font-size: 20px;
+    font-weight: 20px;
+   
+}
+.second-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.input-container{
+    /* width: 10%;*/ 
+    height: fit-content;
+    background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   padding-right: 200px;
+}
+.start{
+    background-color: #e50914;
+    /* width: 60%; */
+    height: 66px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+   padding-bottom: 10px;
+   
+  
+}
+.start-btn:hover{
+    background-color: #fa0915;
+}
+.font{
+  
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    background-color: #e50914;
+   
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.sections{
+    padding: 70px 45px;
+    position: relative;
+    border-bottom: 8px solid #222;
+    
+    margin-bottom: 0;
+    /* background: 0 0; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.texts{
+
+    width: 52%;
+    height: 100%;
+}
+
+/* .texts2{
+    padding:3rem;
+
+    width: 52%;
+    height: 100%;
+} */
+.images{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+.card1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.card2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.card3{
+    font-weight: 400;
+    display: block;
+    text-align: left;
+}
+.img{
+    position: relative;
+    overflow: hidden;
+   
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.img2{
+    position: relative;
+    overflow: hidden;
+    margin: -5% -10% 0 0;
+    /* z-index: 1; */
+
+}
+.video{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.video2{
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+.vm{
+    width: 100%;
+    height: 100%;
+    
+}
+.trans{
+    
+    min-height: 100px;
+    width: 100%;
+}
+.questions{
+    text-align: center;
+    width: auto;
+}
+.list{
+    width: 100%;
+    margin: 2em auto;
+    text-align: center;
+}
+.list-ittem{
+    list-style-type: none;
+    margin: 0 0 8px 0;
+    font-size: 1.625rem;
+    font-weight: 400;
+   
+}
+h3{
+    text-align: center;
+}
+button{
+    overflow: hidden;
+}
+.plus{
+    cursor: pointer;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 3px;
+    font-weight: 400;
+    position: relative;
+    width: 60%;
+    border: 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content {
+     width: 60%; 
+margin: auto; 
+   padding: 20px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #222;
+  }
+  .footer{
+      width: 100%;
+      /* text-align: center; */
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      border-bottom: none;
+    padding-bottom: 0;
+  padding-left: 110px;
+   overflow: hidden;
+  }
+  .site{
+    min-width: 190px;
+    width: 100%;
+    /* margin-top: 80px; */
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+  
+  }
+  .footer-top {
+    padding: 0;
+    margin: 0 0 30px
+
+}
+  .footer-link {
+    color: #757575;
+}
+li{
+    list-style: none;
+   
+}
+.footer-top-a{
+    color: #757575;
+}
+.footer-link-item {
+box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 20%;
+    padding-right: 12px;
+    vertical-align: top;
+    font-size: 0.8rem;
+}
+.footer-link-item :hover{
+    border-bottom: #000 solid 1px;
+}
+.aa{
+margin: 40px;
+}
+.fa-plus::before {
+    content: "";
+    font-size: 200;
+   
+}
+.fa-solid {
+    top: 50%;
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.rotate {
+    transform: rotate(45deg);
+}
+.place{
+    
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1em;
+    width: 1em;
+    fill: #fff;
+}
+.reverse{
+    flex-direction: row-reverse;
+
+}
+
+
+@media screen and (max-width: 787px){
+    .nf-logo{
+       
+        width: 35%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .hyper-title{
+        color: white;
+        font-size:3.125rem;
+       
+    }
+    .second-title{
+        color: white;
+        font-size: 1.625rem;
+        font-weight: 50px;
+    }
+
+    .second-container{
+       
+        flex-direction: column;
+    }
+    .start{
+        background-color: #e50914;
+        /* width: 60%; */
+        height: 40px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 20px;
+        padding-top: 7px;
+      border-radius: 4px;
+       margin-top: 10px;
+      
+    }
+    .font{
+        font-size: 1rem;
+    }
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .images {
+        width: 85%;
+        height: 100%;
+        
+    }
+    .texts {
+        /* padding: 0 3rem 0 0; */
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .card1 {
+        font-size:2.5rem;
+        line-height: 1.1;
+        margin-bottom: 0.5rem;
+    }
+    .plus{
+        cursor: pointer;
+        padding: 0.8em 2.2em 0.8em 1.2em;
+        margin-bottom: 3px;
+        font-weight: 400;
+        position: relative;
+        width: 100%;
+        border: 0;
+        background-color: #222;
+        color: #fff;
+        font-size: 20px;
+    }
+    .card2 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    .content {
+     width: auto;
+   margin: auto; 
+     
+     }
+     .dif{
+         text-align: center;
+         padding:0 10%;
+     }
+    .footer-link-item {
+       
+        width: 25%;
+      
+    }
+}
+
+
+@media screen and (max-width: 496px){
+    nav {
+        
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+
+    .nf-logo {
+        width: 45%;
+        margin-left: 10px;
+        
+   
+    }
+    .language {
+       
+      width: 140px;
+     
+    }
+    .right-button{
+        display: block;
+    }
+    .btnn {
+
+        padding: 3px 17px;
+        width:95px;
+        margin-right: 20px;
+        margin-left: 15px;
+        font-weight: 400;
+    }
+    .hyper-title {
+        
+        font-size: 1.75rem;
+    }
+    .second-title {
+       
+        font-size: 1.125rem;
+        font-weight: 50px;
+    }
+    .small-title {
+        font-size: 18px;
+       
+    }
+
+    .input-container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 100px;
+       
+    }
+    .card1 {
+        font-size: 1.625rem;
+       font-weight: bold;
+    }
+    .card2 {
+        font-size: 1.125rem;
+       
+    }
+    .footer{
+        padding-left: 40px;
+    }
+    .footer-link-item {
+        width: 49%;
+    }
+}
